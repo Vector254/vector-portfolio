@@ -4,8 +4,33 @@
 
 
 {{block.super}}
+<style>
+    .me{margin-left: 100px;
+   
+        height: 250px;
+        width: 240px;
+        border: 2px solid #00bfff;
+        padding: 2px;
+        border-radius: 200px;
+    }
+    .second{
+        
+        background-color: #00bfff;
+        background-size: cover;
+        height: 500px;
+    }
+</style>
+<div class="container-fluid">
+    <div class="col-md-6 first">
+       <img class="me"src="../../static/images/me.jpg" alt="my_photo">
+        <h1 class="text-center"><b>Victor Nduati</b> </h1>
+        <a href=""><img src="../../static/images/fb.png" alt="facebook"></a>
+        <a href=""><img src="../../static/images/github.png" alt="github"></a> 
+        <a href=""><img src="../../static/images/linkedin.png" alt="linkedin"></a>
+    </div>
+    <div class="col-md-6 second">
 
-<div class="container">
-    <h1>welcome</h1>
+    </div>
+    
 </div>
 {% endblock %}
