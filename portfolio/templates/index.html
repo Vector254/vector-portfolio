@@ -5,6 +5,15 @@
 
 {{block.super}}
 <style>
+   
+    @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+    body{
+        font-family: 'Rancho', cursive;
+    }
+    .name{
+        font-family: 'Londrina Shadow', cursive;
+    }
     .first{
         text-align: center;
         background-color: floralwhite;
@@ -35,27 +44,27 @@
         padding: 1px;
     }
     .second p{
-        font-weight: bold;
-       
+        
+        
         margin: 15px;
-        font-size: 20px;
+        font-size: 30px;
     }
     .job{
         color: dodgerblue;
-        font-size: 25px;
+        font-size: 32px;
     }
 </style>
 <div class="container-fluid">
     <div class="row">
     <div class="col-md-6 first">
        <img class="me"src="../../static/images/me.jpg" alt="my_photo">
-        <h1 class="text-center"><b>Victor Nduati</b> </h1>
+        <h1 class="text-center name"><b>Victor Nduati</b> </h1>
         <a href="https://www.facebook.com/vector.christopher"><img class="to" src="../../static/images/fb.png" alt="facebook"></a>
         <a href="https://github.com/Vector254"><img class="to"  src="../../static/images/github.png" alt="github"></a> 
         <a href="https://www.linkedin.com/in/victor-nduati-13b235167/"><img class="to" src="../../static/images/linkedin.png" alt="linkedin"></a>
     </div>
     <div class="col-md-6 second">
-        <h2>Profile</h2>
+        <h2><u> Profile</u></h2>
         <p>A creative and highly imaginative full stack <span class="job">software developer</span>  with specification
             in the web development field. Proficient in various programming
             languages and development frameworks, with an excellent
