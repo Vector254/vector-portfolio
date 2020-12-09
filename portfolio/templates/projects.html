@@ -1,0 +1,70 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+
+{{block.super}}
+<style>
+    .first{
+        text-align: center;
+        background-color: floralwhite;
+        height: 450px;
+    }
+    .me{
+        
+        height: 250px;
+        width: 240px;
+        border: 2px solid#ff9100;
+        padding: 2px;
+        border-radius: 200px;
+    }
+    .second{
+        
+        text-align: center;
+        background-color: rgb(255, 145, 0, 0.7);
+        background-size: cover;
+        height: 450px;
+    }
+    
+</style>
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-md-6 first">
+       <a href="https://mymovies.africa/"><h2>MyMoviesAfrica</h2> </a> 
+        A web  application  built with Javascript, PHP,
+        HTML & CSS and React framework  to deliver african
+        content(movies and tv shows) at an affordable price. <br>
+        <b>Role:</b>  Worked on customer login and registration,
+        Movie request form and sharing to social media.
+        
+        <a href="https://mymovies.africa/"><h2>Instavector</h2> </a> 
+        A web  application  built with Javascript, PHP,
+        HTML & CSS and React framework  to deliver african
+        content(movies and tv shows) at an affordable price. <br>
+        <b>Role:</b>  Sole developer.
+        
+    </div>
+    <div class="col-md-6 second">
+        <a href="https://job-hunter5.herokuapp.com/"><h2>Job Hunter</h2> </a> 
+        A project developed in python and flask web
+        framework to allow users create a profile and
+        be able to search for work opportunities around
+        them based on their personal skills. <br>
+        <b>Role:</b>  Scrum master - incharge of merging all
+        development branches into master.
+        
+        <a href="https://vector254.github.io/pizza-place/"><h2>Pizza Place</h2> </a> 
+        A project built with javascript, HTML and CSS for a 
+        fictional pizza restaurant website, based on a
+        functional restaurant that wishes to expand
+        its business into online sales and delivery.
+        It was built with an aim to better comprehend
+        DOM manipulation and javascript constructors and
+        prototypes. <br>
+        <b>Role:</b>  Sole developer.
+    </div>
+    </div>
+   
+    
+</div>
+{% endblock %}
