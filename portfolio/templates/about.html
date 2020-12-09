@@ -1,0 +1,75 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+
+{{block.super}}
+<style>
+    .first{
+        text-align: center;
+        background-color: floralwhite;
+        
+    }
+  
+    .second{
+        
+        text-align: center;
+        background-color: rgb(255, 145, 0, 0.7);
+        background-size: cover;
+        
+    }
+    
+</style>
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-md-6 first">
+        <h2>Education</h2> 
+        <b>Moringa School</b>  / <i>Certificate</i> 
+        JULY 2020 - DECEMBER 2020,  NAIROBI
+        Full stack web development
+        <b>University of Nairobi</b> 
+        SEPTEMBER 2015 - PRESENT,  NAIROBI
+        BSc. Computer Science(Deferred)
+        <b>Nanyuki Boys High School</b> / <i>Certificate</i> 
+        FEBRUARY 2010 - NOVEMBER 2013 , NANYUKI
+        Kenya Certificate of Secondary Education
+        
+    </div>
+    <div class="col-md-6 second">
+        <h2>Skills</h2>
+        <b>Strong</b>
+        <ul>
+            <li>Python</li>
+            <li>Javascript</li>
+            <li>HTML & CSS</li>
+            <li>MySQL</li>
+            <li>Flask</li>
+            <li>Angular</li>
+            <li>Django </li>
+            <li>APIs</li>
+        </ul>
+        <b>Experienced</b>
+        <ul>
+            <li>PHP</li>
+            <li>C</li>
+            <li>React</li>
+        </ul><hr>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Fine art</li>
+            <li>Coding</li>
+            <li>Beading</li>
+            <li>Soccer</li>
+        </ul>
+        <hr>
+        <h2>Languages</h2>
+        <ol>
+            <li>English</li>
+            <li>Swahili</li>
+        </ol>
+    </div>
+    </div>
+   
+    
+</div>
+{% endblock %}
